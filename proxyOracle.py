@@ -36,12 +36,12 @@ class ObsoleteHTTPSAdapter(HTTPAdapter):
 
 # User runtime Variable, MUST-MODIFY
 
-exchange_host = "https://192.168.152.104"
+exchange_host = "https://CHANGE ME"
 exchange_path = "/owa/"
-request_cookies = {"PrivateComputer": "true", "PBack": "0", "cadata": "WSnC4uswS9maoaLHl8wEOegUCDqrdGNOcl/pvkj27RE+WsrlXzuVKvAJzR9pdkxNTyZZBpq+7L0SXMm9mw0Nu4JJzvLPul4sknGvK18G3e9Yol80rnW9/VW5EduxXduU", "cadataTTL": "HWnjXDZ/9wtaBmXGH/Dgqw==", "cadataKey": "spX9ua77BYUpGBSHt+VHxEp6E3Pxbkj1wRqQ7kh5ZhNnoFGfnn2IS8PM94yugR3vzmO3SmhMYOCCJdTvkUkcWSPyKpCI4JJjlPrzyYe5Gnfikt651WZ2GLlmngQwFyNHH/VfvjWqPyj3E6OD820ps0KjQbkaTT46jPPibtvnbL9WcFgMmGG7mVjv68BVuQxU5ttaMlwm0EPIJwEXXlLHB9UG4OEZeBUQhV4H/y/wvZxtg2Ziqd3/dy3iRg/2dRZJsDM8BGPSeFfcrHx+beVv8S6hHNoovhh+bx0/CE2vmoK/0y+NsqUED1j9TxBZYljiewH2ONt4DLwZ6yfZdc8ykg==", "cadataIV": "jx26Ni6rQYOqD4POfC/+5labFOdUMmASHsJNrjFmrbdrMnpzD5b7HT7NfKAnQq2SgJEpfno6YYLXOLt2eHRvkMw8Rc1TyCc7VeooO9bWxJ4XmdAMTz1YuRvOTVjOafBpL0+dAGt7eHKfbOrHupQHWW4kKHcAyFDjJcwcpUz0xerKTHqyrF4B8F4M51XvEgySin9p0ukMDGAJ/Q8yAQSJq5t8Ryy1e46GKBYR++G2GbJ9OJSNjehmoHqQaztuQeEJH7gquLF3ulRpMpMO6ZNnsPRwwjibgTNNJhzkYP2q0obvXUmZFtUbd42/nB4eg4++I+bnVTqaHlT7XMr2eXXSng==", "cadataSig": "PRVTCDRPJvS3RIvUSGJ7N86gnaePY/2OzjK9y6z7TZd2CCRYB3el+SWSf/Gi7qjRlNrRg9p6ccqF4PUBqxkT/0kftIUtzqc/BH2dZXnmeuRRpJW/O2UbXRzw9iT52hNNTJWKiO0d85nYBJcKkOA2DSAmN3h5w+iHL8XwFaBW3CStfQ+4RNAL89f+04Wa9q8xcoQO/ub5S8KZ+YAnp9fiKqE9bPWFVTgKT29dK5FnfM0HPezmxNP8PTMZO/HDB/dUCtjIFBR6udGClPAr1Vr4oaqzs/GbeMHZv8kJOiCi4WDnXJValacoHVcc2AtLAMpETwBa+rmJoTFl2dBuQRbVxg=="}
-isVerbose = True
+request_cookies = {"PrivateComputer": "true", "PBack": "0", "cadata": "CHANGE ME", "cadataTTL": "CHANGE ME", "cadataKey": "CHANGE ME", "cadataIV": "CHANGE ME"}
+isVerbose = False
 isObsoleteSSL = False
-useProxy = True
+useProxy = False
 request_proxies = {
     'http': 'http://127.0.0.1:8081',
     'https': 'http://127.0.0.1:8081'
